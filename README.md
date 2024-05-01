@@ -1,4 +1,6 @@
 ## This is HTML,CSS,JS and PHP-MySQL based portfolio website that have little bit of animations.
+## Note : index.html file is only for github deployment, you can delete it.
+
 ## Steps to setup
 1. Download and extract the zip file  inside your xampp/htdocs folder.
 2. Create database (contacts) on localhost/phpmyadmin.
