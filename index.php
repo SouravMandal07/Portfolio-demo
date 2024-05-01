@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="img/svg/sm-high-resolution-logo-white-transparent.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio | Sourav Mandal</title>
@@ -17,9 +15,9 @@
     <!-- Header design  start-->
     <header class="header">
         <a href="" class="logo">Portfo<span>lio.</span></a>
-        
 
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <i class="" id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -39,10 +37,12 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero repellat est quae suscipit. Ea eligendi
                 fuga repellat earum ducimus optio in deleniti commodi amet. Eum!</p>
             <div class="social-media">
-                <a href="https://www.facebook.com/souravmandal.sou"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/Sourav00077"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/sourav.sou7/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/sourav-mandal-b6b31b173/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SouravMandal07"><i class="fa-brands fa-github"></i></a>
+
+                <a href="https://www.facebook.com/souravmandal.sou"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/sourav.sou7/"><i class="fa-brands fa-instagram"></i></a>
+
 
             </div>
             <a href="CV/CV - SOURAV MANDAL.pdf" class="btn">Download CV</a>
@@ -56,7 +56,7 @@
     <!-- About design  start-->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img/aboutpic.png" alt="">
+            <img src="img/sourav.png" alt="">
         </div>
 
         <div class="about-content">
@@ -66,6 +66,8 @@
                 molestiae saepe deleniti nobis quis. Laudantium repudiandae illo facere quos illum, quibusdam doloribus
                 iusto rerum? Unde error asperiores beatae facilis ducimus nostrum harum nobis incidunt. Reprehenderit at
                 reiciendis incidunt temporibus porro consequatur error, repellat nobis autem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet eaque, facilis reprehenderit exercitationem excepturi eligendi, provident distinctio debitis nobis non voluptatibus sunt maiores laboriosam eius quibusdam ex inventore voluptatem, adipisci dolorum sapiente hic sequi? Necessitatibus aspernatur nulla, repellat vel ex error ad cupiditate porro!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, accusantium ex ullam veritatis harum nulla impedit ut, voluptatibus placeat atque quas provident doloremque similique nisi accusamus natus? Mollitia nobis ipsa libero et recusandae reiciendis, odit sed dignissimos vitae itaque laudantium.</p>
             <a href="" class="btn">Read more</a>
         </div>
 
@@ -173,17 +175,17 @@
     <!-- Contact design  start-->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="" method="post">
+        <form action="config.php" method="post">
             <div class="input-box">
-                <input type="text" name="" placeholder="Full Name">
-                <input type="email" name="" placeholder="Email Address">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
 
             <div class="input-box">
-                <input type="text" name="" placeholder="Mobile Number">
-                <input type="text" name="" placeholder="Email Subject">
+                <input type="text" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
 
