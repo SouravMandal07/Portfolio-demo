@@ -8,7 +8,7 @@
 3. Match your database name and config.php $dbname.
 5. Run : localhost/project-name
 
-## For any query : souravmandal.sou07@gmail.com | http://codingsourav.000webhostapp.com
+## For any query : souravmandal.sou07@gmail.com | http://codersourav.000webhostapp.com
 
 ## Project images
 ![demo-1](https://github.com/SouravMandal07/Portfolio-demo/assets/86459723/a6beab2c-aaea-4ad9-8abb-c52344f2231e)
